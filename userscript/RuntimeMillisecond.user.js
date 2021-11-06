@@ -3,6 +3,7 @@
 // @version      1.0
 // @description  実行時間を1000倍しmsで表示します
 // @author       ei1903
+// @updateURL    https://github.com/ei1903/UserScript/raw/master/userscript/RuntimeMillisecond.user.js
 // @include      https://hoj.hamako-ths.ed.jp/onlinejudge/state
 // @include      https://hoj.hamako-ths.ed.jp/onlinejudge/state?*
 // @include      https://hoj.hamako-ths.ed.jp/onlinejudge/state/me

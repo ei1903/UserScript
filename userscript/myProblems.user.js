@@ -3,6 +3,7 @@
 // @version      1.1
 // @discriptioni HOJのメニューに"自分の問題"へのリンクを追加
 // @author       ei1903
+// @updateURL    https://github.com/ei1903/UserScript/raw/master/userscript/myProblems.user.js
 // @include      https://hoj.hamako-ths.ed.jp/onlinejudge/*
 // @exclude      https://hoj.hamako-ths.ed.jp/onlinejudge/contest/*
 // ==/UserScript==
