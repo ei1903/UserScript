@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         HOJ-MyProblems
 // @version      1.2
-// @discriptioni HOJのメニューに"自分の問題"へのリンクを追加
+// @discription  HOJのメニューに"自分の問題"へのリンクを追加
 // @author       ei1903
 // @updateURL    https://github.com/ei1903/UserScript/raw/master/userscript/myProblems.user.js
 // @include      https://hoj.hamako-ths.ed.jp/onlinejudge/*
