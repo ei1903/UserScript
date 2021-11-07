@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         HOJ-ContestMenuUtils
-// @version      1.0
+// @version      0.1
 // @discription  HOJのコンテスト画面でのメニューを便利に
 // @author       ei1903
 // @updateURL    
