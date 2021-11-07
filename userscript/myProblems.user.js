@@ -55,7 +55,7 @@
                 }
             });
             problems.after(li);
-            if (location.href == userProblemsURL) {
+            if (location.href.indexOf(userProblemsURL) != -1) {
                 li.className = 'pure-menu-item pure-menu-selected';
                 problems.className = 'pure-nemu-item';
             } else {
