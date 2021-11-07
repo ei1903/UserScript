@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         HOJ-ContestMenuUtils
-// @version      0.1
+// @version      0.2
 // @discription  HOJのコンテスト画面でのメニューを便利に
 // @author       ei1903
 // @updateURL    
@@ -10,6 +10,8 @@
 (function() {
     var menu = document.getElementsByTagName('ul')[0];
     menu.childNodes.forEach((node) => {
-        console.log(node.nodeName);
+        if (node.firstChild.nodeName == 'A' && node.firstChild.href == location.href) {
+            console.log(node.firstChild.href);
+        }
     });
 })();
