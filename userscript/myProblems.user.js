@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         HOJ-MyProblems
-// @version      1.2
-// @discription  HOJのメニューに"自分の問題"へのリンクを追加
+// @version      1.3
+// @discription  HOJのメニューに"自分の問題"を追加
 // @author       ei1903
 // @updateURL    https://github.com/ei1903/UserScript/raw/master/userscript/myProblems.user.js
 // @include      https://hoj.hamako-ths.ed.jp/onlinejudge/*
@@ -11,7 +11,7 @@
 (function() {
     const usersURL = 'https://hoj.hamako-ths.ed.jp/onlinejudge/users';
     const problemsURL = 'https://hoj.hamako-ths.ed.jp/onlinejudge/problems';
-    function getUsetName(callBack) {
+    function getUserName(callBack) {
         let userName = null;
         document.getElementsByClassName('pure-menu-list')[0].childNodes.forEach((node) => {
             if (String(node.innerHTML).indexOf('ユーザー名') != -1) {
@@ -63,5 +63,5 @@
             }
         };
     };
-    getUsetName(callBack);
+    getUserName(callBack);
 })();
