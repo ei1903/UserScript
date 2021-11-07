@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         RuntimeMillisecond
-// @version      1.1
+// @version      1.2
 // @description  HOJの提出一覧画面での実行時間を1000倍しmsで表示します
 // @author       ei1903
-// @updateURL    https://github.com/ei1903/UserScript/raw/master/userscript/RuntimeMillisecond.user.js
+// @updateURL    https://github.com/ei1903/UserScript/raw/master/HOJ/RuntimeMillisecond.user.js
 // @include      https://hoj.hamako-ths.ed.jp/onlinejudge/state
 // @include      https://hoj.hamako-ths.ed.jp/onlinejudge/state?*
 // @include      https://hoj.hamako-ths.ed.jp/onlinejudge/state/me
