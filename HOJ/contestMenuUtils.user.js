@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         HOJ-ContestMenuUtils
 // @version      1.0
-// @discription  HOJのコンテスト画面でのメニューを便利に
+// @description  HOJのコンテスト画面でのメニューを便利に
 // @author       ei1903
 // @updateURL    https://github.com/ei1903/UserScript/raw/contestMenuUtils/HOJ/contestMenuUtils.user.js
 // @include      https://hoj.hamako-ths.ed.jp/onlinejudge/contest/*
