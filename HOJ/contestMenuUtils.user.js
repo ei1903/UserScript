@@ -3,7 +3,7 @@
 // @version      1.0
 // @discription  HOJのコンテスト画面でのメニューを便利に
 // @author       ei1903
-// @updateURL    
+// @updateURL    https://github.com/ei1903/UserScript/raw/contestMenuUtils/HOJ/contestMenuUtils.user.js
 // @include      https://hoj.hamako-ths.ed.jp/onlinejudge/contest/*
 // ==/UserScript==
 
