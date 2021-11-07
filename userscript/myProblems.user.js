@@ -41,7 +41,7 @@
         function addMenu(userID) {
             if (!userID) return;
             localStorage.setItem(userName, userID);
-            const userProblemsURL = problemsURL + '/?user=' + userID;
+            const userProblemsURL = problemsURL + '?user=' + userID;
             var myProblems = document.createElement('li');
             var a = document.createElement('a');
             a.className = 'pure-menu-link';
