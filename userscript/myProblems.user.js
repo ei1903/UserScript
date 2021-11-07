@@ -42,24 +42,24 @@
             if (!userID) return;
             localStorage.setItem(userName, userID);
             const userProblemsURL = problemsURL + '/?user=' + userID;
-            var li = document.createElement('li');
+            var myProblems = document.createElement('li');
             var a = document.createElement('a');
             a.className = 'pure-menu-link';
             a.href = userProblemsURL;
             a.innerHTML = '<i class="fa fa-list-ul fa-fw"></i>自分の問題';
-            li.appendChild(a);
+            myProblems.appendChild(a);
             var problems;
             document.getElementsByClassName('pure-menu-list')[0].childNodes.forEach((node) => {
                 if (String(node.innerHTML).indexOf('問題一覧') != -1) {
                     problems = node;
                 }
             });
-            problems.after(li);
+            problems.after(myProblems);
             if (location.href.indexOf(userProblemsURL) != -1) {
-                li.className = 'pure-menu-item pure-menu-selected';
+                myProblems.className = 'pure-menu-item pure-menu-selected';
                 problems.className = 'pure-nemu-item';
             } else {
-                li.className = 'pure-menu-item';
+                myProblems.className = 'pure-menu-item';
             }
         };
     };
