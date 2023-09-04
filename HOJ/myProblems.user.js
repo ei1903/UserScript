@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         HOJ-MyProblems
-// @version      1.5
+// @version      1.6
 // @description  HOJのメニューに"自分の問題"を追加
 // @author       ei1903
 // @updateURL    https://github.com/ei1903/UserScript/raw/master/HOJ/myProblems.user.js
+// @downloadURL  https://github.com/ei1903/UserScript/raw/master/HOJ/myProblems.user.js
 // @match        https://hoj.hamako-ths.ed.jp/onlinejudge/*
 // @exclude      https://hoj.hamako-ths.ed.jp/onlinejudge/contest/*
 // ==/UserScript==
