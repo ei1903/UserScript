@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         HOJ-ContestMenuUtils
-// @version      1.0
+// @version      1.1
 // @description  HOJのコンテスト画面でのメニューを便利に
 // @author       ei1903
 // @updateURL    https://github.com/ei1903/UserScript/raw/contestMenuUtils/HOJ/contestMenuUtils.user.js
-// @include      https://hoj.hamako-ths.ed.jp/onlinejudge/contest/*
+// @downloadURL  https://github.com/ei1903/UserScript/raw/contestMenuUtils/HOJ/contestMenuUtils.user.js
+// @match        https://hoj.hamako-ths.ed.jp/onlinejudge/contest/*
 // ==/UserScript==
 
 (function() {
